@@ -1,2 +1,1 @@
-# PersonalWebsite
-Pratham Aggarwal Personal Website
+# Personal
