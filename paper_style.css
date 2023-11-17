@@ -160,16 +160,9 @@ main hr {
 
 }
 
-/* Center-align icons within the abstract */
-.abstract .paper-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px; /* Add margin for spacing between the icons and the abstract text */
-}
 
 /* Style the GitHub and document icons */
-.abstract .paper-links a {
+.abstract .paper-links a i {
     display: flex;
     align-items: center; /* Vertically center icons within the row */
     color: rgb(1, 1, 63); /* Change the color as desired */
