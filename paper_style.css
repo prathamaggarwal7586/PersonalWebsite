@@ -176,18 +176,6 @@ main hr {
     color: #4078c0; /* Change the color for the hover effect */
 }
 
-/* Style the presentation icon */
-.abstract .paper-links a .fas.fa-presentation {
-    color: rgb(1, 1, 63); /* Change the color as desired */
-    font-size: 24px; /* Adjust the icon size as needed */
-}
-
-/* Hover effect for the presentation icon (optional) */
-.abstract .paper-links a:hover .fas.fa-presentation {
-    color: #4078c0; /* Change the color for the hover effect */
-}
-
-
 footer {
     background-color: rgb(0, 0, 33);
     color: rgb(0, 0, 33);
