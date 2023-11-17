@@ -162,7 +162,7 @@ main hr {
 
 
 /* Style the GitHub and document icons */
-.abstract .paper-links a i {
+.abstract .paper-links a {
     display: flex;
     align-items: center; /* Vertically center icons within the row */
     color: rgb(1, 1, 63); /* Change the color as desired */
@@ -173,6 +173,17 @@ main hr {
 
 /* Hover effect for icons (optional) */
 .abstract .paper-links a:hover {
+    color: #4078c0; /* Change the color for the hover effect */
+}
+
+/* Style the presentation icon */
+.abstract .paper-links a .fas.fa-presentation {
+    color: rgb(1, 1, 63); /* Change the color as desired */
+    font-size: 24px; /* Adjust the icon size as needed */
+}
+
+/* Hover effect for the presentation icon (optional) */
+.abstract .paper-links a:hover .fas.fa-presentation {
     color: #4078c0; /* Change the color for the hover effect */
 }
 
