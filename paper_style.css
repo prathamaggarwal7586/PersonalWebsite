@@ -160,20 +160,22 @@ main hr {
 
 }
 
-
-/* Style the GitHub and document icons */
-.abstract .paper-links a {
+.abstract .paper-links {
     display: flex;
-    align-items: center; /* Vertically center icons within the row */
-    color: rgb(1, 1, 63); /* Change the color as desired */
-    text-decoration: none;
-    margin: 0 10px; /* Add margin for spacing between icons and center-align them */
-    font-size: 24px; /* Adjust the icon size as needed */
+    align-items: center;
 }
 
-/* Hover effect for icons (optional) */
+.abstract .paper-links a {
+    display: flex;
+    align-items: center;
+    color: rgb(1, 1, 63);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
 .abstract .paper-links a:hover {
-    color: #4078c0; /* Change the color for the hover effect */
+    color: #4078c0;
 }
 
 footer {
